@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.register {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  left: 0; 
+  background-color: #E4A11B;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+body {
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 55px;
+  grid-template-columns: 426px 426px 426px;
+  background-color: #E4A11B;
+  padding: 10px;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  height: 550px;
+  align-items: flex-end;
+}
+
+.fixView {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+
+}
