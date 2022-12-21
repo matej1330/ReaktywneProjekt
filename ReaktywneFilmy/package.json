@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.5.0"
   }
 }

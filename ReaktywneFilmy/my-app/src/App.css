@@ -15,8 +15,8 @@
   height: 50px;
   display: flex;
   justify-content: space-between;
-  left: 0; 
-  background-color: #E4A11B;
+  left: 0;
+  background-color: #ffffff;
   color: rgb(0, 0, 0);
   text-align: center;
 }
@@ -26,7 +26,7 @@ body {
 }
 
 body::after {
-  content: '';
+  content: "";
   display: block;
   height: 50px; /* Set same as footer's height */
 }
@@ -35,7 +35,7 @@ body::after {
   display: grid;
   column-gap: 55px;
   grid-template-columns: 426px 426px 426px;
-  background-color: #E4A11B;
+  background-color: #e4a11b;
   padding: 10px;
   margin: 15px;
   flex-wrap: wrap;
@@ -57,5 +57,103 @@ body::after {
   flex-direction: column;
   justify-content: left;
   text-align: left;
+}
+.fixButton {
+  width: 100px;
+  height: 40px;
+  font-size: 300px;
+}
+.areaWithLogin {
+  background-color: #66b12d;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.parent {
+  background: gray;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
 
+.child {
+  background: orange;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+}
+.main {
+  display: flex;
+  column-gap: 55px;
+  grid-template-columns: 426px 426px 426px;
+  background-color: #e4a11b;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  height: 550px;
+  width: 500px;
+  flex-direction: column;
+  margin-bottom: 100px;
+  border-radius: 50px;
+}
+.fixLogin {
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.fixInput {
+  height: 30ps;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.fixName {
+  font-size: 40px;
+  font-style: italic;
+}
+.fixButtonRegister {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 70px;
+}
+.backButton {
+  margin-top: 0%;
+}
+.fixRegister {
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+  font-size: 20px;
+}
+.fixInputRegister {
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.contentRegister {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  height: 550px;
+  width: 500px;
+  flex-direction: column;
+  margin-bottom: 100px;
+  border-radius: 50px;
 }
